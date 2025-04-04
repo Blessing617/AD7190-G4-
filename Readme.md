@@ -16,7 +16,7 @@
   * 按键中断            PC13-> KEY
   *
   * @模块接线
-  * ADS1256x模块       STM32G474RE
+  * AD7190模块        STM32G474RE
   *      +5V   <------  5.0V      5V供电
   *      GND   -------  GND       地
   *      CS    ------>  PC3       SPI_CS
