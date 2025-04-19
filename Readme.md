@@ -12,7 +12,6 @@
   *
   * @IO
   * 硬件串口            PC4 -> USART1_TX  PC5 -> USART1_RX
-  * OLED显示(软件IIC)   PB8 -> SDA        PB9 -> SCL
   * 按键中断            PC13-> KEY
   *
   * @模块接线
@@ -23,5 +22,11 @@
   *      SCLK  <------  PC2       SPI时钟
   *      DIN   <------  PC0       SPI_MOSI
   *      DOUT  ------>  PC1       SPI_MISO
+  *
+  * OLED模块(软件IIC)  STM32G474RE
+  *      VCC   <------  5.0V      5V供电
+  *      GND   -------  GND       地
+  *      SCL   -------  PB9       IIC时钟线
+  *      SDA   -------  PB8       IIC数据线
   ******************************************************************************
   */
